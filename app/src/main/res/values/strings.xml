@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="btn_add_note_label">Добавить</string>
+    <string name="start_label">Что использовать?</string>
+    <string name="room_btn_label">ROOM</string>
+    <string name="title">Заметки</string>
+    <string name="toast_enter_name">Введите имя заметки</string>
+    <string name="firebase_btn_label">FIREBASE</string>
+    <string name="email_input_hint">email</string>
+    <string name="password_input_hint">password</string>
+    <string name="login_btn_label">LOGIN</string>
+    <string name="toast_wrong_login_data">Введите почту и пароль</string>
+</resources>

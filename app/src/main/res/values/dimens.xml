@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //скругление углов
+    <dimen name="card_corner_radius">10dp</dimen>
+    <dimen name="card_elevation">10dp</dimen>
+
+    //размеры текста
+    <dimen name="text_size_large_20">20sp</dimen>
+    <dimen name="text_size_normal_16">16sp</dimen>
+
+    //отступы
+    <dimen name="margin_normal_16">16dp</dimen>
+    <dimen name="btn_width">250dp</dimen>
+</resources>
