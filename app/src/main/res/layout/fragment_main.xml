@@ -8,7 +8,8 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_main"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:spanCount="2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:listitem="@layout/note_item"
@@ -19,12 +20,13 @@
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btn_add_note"
-        android:clickable="true"
-        android:focusable="true"
-        android:src="@drawable/ic_add_24"
-        android:layout_margin="@dimen/margin_normal_16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_normal_16"
+        android:clickable="true"
+        android:focusable="true"
+        android:importantForAccessibility="no"
+        android:src="@drawable/ic_add_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 

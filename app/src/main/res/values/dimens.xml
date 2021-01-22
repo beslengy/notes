@@ -12,4 +12,6 @@
     //отступы
     <dimen name="margin_normal_16">16dp</dimen>
     <dimen name="btn_width">250dp</dimen>
+    <dimen name="margin_small_8">8dp</dimen>
+    <dimen name="margin_tiny_4">4dp</dimen>
 </resources>
